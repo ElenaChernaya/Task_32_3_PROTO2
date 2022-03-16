@@ -1,0 +1,11 @@
+syntax = "proto2";
+
+message Company
+{
+  required int32 year_of_creation = 1;
+  required string the_adress = 2;
+  required string name = 3;
+  optional map<string,> matier = 4; //род деятельности
+  optional bool export = 5;
+
+}
